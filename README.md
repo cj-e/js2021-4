@@ -1,5 +1,32 @@
 # 이창중 [201840224]
 
+## [4월 6일]
+>   for문 
+	let foo{1,3,4}
+	for(let i in foo) 
+    {
+        foo의 인덱스 값만큼 for문을 반복함
+        }
+	console.log(${i} 콘솔로그 안에서 정수값을 출력하고 ',"대신`백팁과 같이 쓴다 싶을때);
+	중첩for문
+	break문 무한반복문의 탈출이나 case문의 탈출을 위해 사용한다
+	배열의 선언방법 let foo=[1,2,dasf] let foo = new array() let foo = new array(1,2,3,41,asdf)
+	push 배열의 끝에 하나이상의 요소를 추가하고, 배열의 새로운 길이를 반환
+	pop은 배열의 마지막 주소에 있는 값을 제거해주는 함수
+	shift는배열의 첫번째 주소에 있는 값을 제거한 후에 반환 해주는 함수
+	concat은 두개의 배열을 합쳐주는 기능을 하는 함수
+	reverse를 사용하면 배열을 역순으로 재배치
+	sort를 사용하면 배열을 정렬
+	array.slice 내가정한 인덱스만 반환
+	splice는 배열값을 추가하거나 제거하여 반환해주는 함수
+	foo =["a","b","c","d"];
+	bar=foo.splice(1,3,1,"삽입");
+	bar의 요소는 bcd
+	foo의 요소는 a,1,삽입
+	splice(자르기고 싶은 배열의 자르고 싶은 범위의 인덱스의 시작값,자르고싶은 자르고 싶은 범위의 배열의 끝값,삽입할값);
+	continue 키워드 반복문 내부에서 현재 반복을 멈추고 다음 반복을 진행함
+	var 키워드 익스플로러에서는 let 변수를 지원하지 않고 var 변수를 지원하기에 익스플로러를 지원하는 웹사이트를 만들려면 사용해야 한다
+
 ## [03월 23일]
 >오늘 배운 내용 요약
 중첩 조건문: &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; (if문 switch/case문 default 문)
