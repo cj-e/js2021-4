@@ -1,7 +1,8 @@
 # 이창중 [201840224]
 
-## [4월 6일]>   for문 
->   let foo{1,3,4}<br>
+## [4월 6일]
+>   for문 
+<br>   let foo{1,3,4}<br>
     for(let i in foo) <br>
     {<br>
         foo의 인덱스 값만큼 for문을 반복함<br>
